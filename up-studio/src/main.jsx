@@ -5,6 +5,9 @@ import './index.css'
 
 import {createBrowserRoute,RouterProvider,Route} from 'react-router-dom'
 
+// seção de rotas das paginas
+import Home from './routes/home/home'
+
 const router = createBrowserRoute([
   {
     element: <App/>,
