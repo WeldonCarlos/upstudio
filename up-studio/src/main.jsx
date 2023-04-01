@@ -6,7 +6,13 @@ import './index.css'
 import {createBrowserRoute,RouterProvider,Route} from 'react-router-dom'
 
 // seção de rotas das paginas
-import Home from './routes/home/home'
+import Home from './routes/home/Home';
+import Sobre from './routes/sobre/Sobre';
+import Servicos from './routes/servicos/Servicos';
+import Portifolio from '.routes/portifolio/Portifolio';
+import Contato from '.routes/contato/Contato';
+
+
 
 const router = createBrowserRoute([
   {
@@ -14,15 +20,23 @@ const router = createBrowserRoute([
     children:[
       {
         path:"/",
+        element: <Home/>,
       },
       {
         path:"/sobre",
+        element:<Sobre/>,
+      },
+      {
+        path:"/servicos",
+        element: <Servicos/>,
       },
       {
         path:"/portifolio",
+        element:<Portifolio/>,
       },
       {
         path:"/contato",
+        element:<Contato/>,
       },
     ],
   }
@@ -34,6 +48,6 @@ const router = createBrowserRoute([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>,
 )
