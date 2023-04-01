@@ -6,11 +6,11 @@ import './index.css'
 import {createBrowserRouter,RouterProvider,Route} from 'react-router-dom'
 
 // seção de rotas das paginas
-import Home from './routes/home/Home';
-import Sobre from './routes/sobre/Sobre';
-import Servicos from './routes/servicos/Servicos';
-import Portifolio from './routes/portifolio/Portifolio';
-import Contato from './routes/contato/Contato';
+import Home from './routes/home/Home'
+import Sobre from './routes/sobre/Sobre'
+import Servicos from './routes/servicos/Servicos'
+import Portifolio from './routes/portifolio/Portifolio'
+import Contato from './routes/contato/Contato'
 
 
 
