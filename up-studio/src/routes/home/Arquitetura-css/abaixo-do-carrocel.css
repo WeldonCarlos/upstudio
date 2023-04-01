@@ -1,0 +1,515 @@
+ /* ESSA CLASSNAME REFERE-SE AO CONTEUDO QUE ESTÁ LOGO DEPOIS  DO CARROCEL */
+ .section__depois__carrocel {
+     display: flex;
+     flex-direction: row;
+     margin-top: 20px;
+
+ }
+
+ /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+ .container__texto__e__button {
+     display: flex;
+     flex-direction: column;
+     margin: 10px 0 0 35px;
+ }
+
+ /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+ .makup__imobiliaria {
+     margin: 40px 0 0 72px;
+     width: 140px;
+ }
+
+
+ .texto__section__depois___carrocel {
+     color: #3B3B39;
+     font-size: 15px;
+     font-weight: lighter;
+     position: absolute;
+
+ }
+
+ .texto__section__depois___carrocel strong {
+     color: #FE741F;
+     font-weight: 700;
+
+
+ }
+
+ .botao__section__depois__carrocel {
+     background: #FE741F;
+     border: none;
+     border-radius: 200px;
+     color: white;
+     font-size: 11px;
+     height: 24px;
+     margin-top: 85px;
+     text-align: center;
+     width: 90px;
+
+ }
+
+
+ @media (min-width: 375px) {
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+
+     .section__depois__carrocel {
+         display: flex;
+         justify-content: center;
+     }
+
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 10px 0 0 0px;
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 11px;
+         height: 26px;
+         margin-top: 100px;
+         text-align: center;
+         width: 100px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+         margin: 50px 0 0 47px;
+         width: 160px;
+     }
+ }
+
+ @media (min-width: 425px) {
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 10px 0 0 35px;
+     }
+
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 10px 0 0 0px;
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO TEXTO DA SECTION ABAIXO DO CARROCEL */
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 18px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 11px;
+         height: 26px;
+         margin-top: 100px;
+         text-align: center;
+         width: 100px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+         margin: 50px 0 0 100px;
+         width: 160px;
+
+     }
+
+ }
+
+ @media (min-width: 768px) {
+
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 30px 0 0 0px;
+     }
+
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 30px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 16px;
+         height: 30px;
+         margin-top: 167px;
+         text-align: center;
+         width: 140px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+         margin: 70px 0 0 200px;
+         width: 300px;
+
+     }
+
+ }
+
+ @media (min-width: 1024px) {
+
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 30px 0 0 0;
+     }
+
+
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 40px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 18px;
+         height: 40px;
+         margin-top: 225px;
+         text-align: center;
+         width: 150px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+         margin: 100px 0 0 300px;
+         width: 350px;
+
+     }
+ }
+
+ @media (min-width: 1360px) {
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 60px 0 0 0;
+     }
+
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 60px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 28px;
+         height: 50px;
+         margin-top: 320px;
+         text-align: center;
+         width: 250px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+         margin: 130px 0 0 340px;
+         width: 550px;
+
+     }
+ }
+
+ @media (min-width: 1366px) {
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 50px 0 0 0;
+     }
+
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 60px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 30px;
+         height: 60px;
+         margin-top: 348px;
+         text-align: center;
+         width: 240px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+         margin: 150px 0 0 350px;
+         width: 550px;
+
+     }
+ }
+
+ @media (min-width: 1440px) {
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 50px 0 0 0;
+     }
+
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 70px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 26px;
+         height: 55px;
+         margin-top: 360px;
+         text-align: center;
+         width: 250px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+
+         margin: 170px 0 0 380px;
+         width: 580px;
+
+     }
+ }
+
+ @media (min-width: 1680px) {
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 50px 0 0 0;
+     }
+
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 75px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 30px;
+         height: 80px;
+         margin-top: 360px;
+         text-align: center;
+         width: 300px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+
+         margin: 170px 0 0 580px;
+         width: 580px;
+
+     }
+ }
+
+ @media (min-width: 1920px) {
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+
+
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 50px 0 0 0;
+     }
+
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 85px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 30px;
+         height: 80px;
+         margin-top: 420px;
+         text-align: center;
+         width: 300px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+
+         margin: 170px 0 0 725px;
+         width: 680px;
+
+     }
+ }
+
+ @media (min-width: 1920px) {
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+     .texto__boas__vindas {
+         margin: 45px 0 -20px 40px;
+     }
+
+
+     .bem__vindos {
+         color: #AAAAAA;
+         font-family: 'Roboto', sans-serif;
+         font-size: 30px;
+         font-weight: 300;
+
+     }
+
+     .inovacao__digital {
+         color: #3B3B39;
+         font-family: 'Roboto', sans-serif;
+         font-size: 55px;
+         font-weight: bold;
+
+     }
+
+
+     /* SECTION VIDEO EXPLICATIVO SOBRE APP WEB*/
+
+     .section__video {
+         align-items: center;
+         background-color: #F8F8F8;
+         display: flex;
+         flex-direction: column;
+         margin-top: 170px;
+         padding-top: 120px;
+     }
+
+     .alterar__tamanho__do__video__explicativo {
+         height: 905px;
+         width: 1500px;
+
+     }
+
+     .texto__abaixo__do__video {
+         color: #AAAAAA;
+         font-family: 'Roboto', sans-serif;
+         font-size: 55px;
+         margin-top: 55px;
+         padding-bottom: 120px;
+     }
+ }
+
+
+ @media (min-width: 2560px) {
+
+     /* ESSA CLASSNAME REFERE-SE AO CONTEINER ONDE ESTÁ O TEXTO E O BOTÃO  DA SECTION ABAIXO DO CARROCEL */
+
+     .container__texto__e__button {
+         display: flex;
+         flex-direction: column;
+         margin: 100px 0 0 0;
+     }
+
+     .texto__section__depois___carrocel {
+         color: #3B3B39;
+         font-size: 100px;
+         font-weight: lighter;
+         position: absolute;
+
+     }
+
+
+     /* ESSA CLASSNAME REFERE-SE AO BOTÃO SECTION DEPOIS DO CARROCEL */
+     .botao__section__depois__carrocel {
+         background: #FE741F;
+         border: none;
+         border-radius: 200px;
+         color: white;
+         font-size: 50px;
+         height: 110px;
+         margin-top: 610px;
+         text-align: center;
+         width: 500px;
+
+     }
+
+     /* ESSA CLASSNAME REFERE-SE A IMAGEM ABAIXO DO CARROCEL */
+     .makup__imobiliaria {
+
+         margin: 190px 0 0 590px;
+         width: 1130px;
+
+     }
+}

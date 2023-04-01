@@ -1,0 +1,180 @@
+/* SECTION VIDEO EXPLICATIVO SOBRE APP WEB*/
+
+.section__video {
+    align-items: center;
+    background-color: #F8F8F8;
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 34px;
+    padding-top: 28px;
+
+}
+
+.alterar__tamanho__video__explicativo {
+    cursor: pointer;
+    height: 129px;
+    width: 350px;
+}
+
+.texto__abaixo__do__video {
+    color: #AAAAAA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+
+    .section__video {
+        align-items: center;
+        background-color: #F8F8F8;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        padding-top: 60px;
+    }
+
+    .alterar__tamanho__do__video__explicativo {
+        height: 330px;
+        width: 600px;
+
+    }
+
+    .texto__abaixo__do__video {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 1024px) {
+
+    .section__video {
+        align-items: center;
+        background-color: #F8F8F8;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        padding-top: 60px;
+
+    }
+
+    .alterar__tamanho__do__video__explicativo {
+        height: 450px;
+        width: 750px;
+    }
+
+    .texto__abaixo__do__video {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        margin-top: 25px;
+        padding-bottom: 60px;
+    }
+}
+@media (min-width: 1360px) {
+
+    .section__video {
+        align-items: center;
+        background-color: #F8F8F8;
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+        padding-top: 80px;
+    }
+
+    .alterar__tamanho__do__video__explicativo {
+        height: 500px;
+        width: 885px;
+
+    }
+
+    .texto__abaixo__do__video {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        margin-top: 38px;
+        padding-bottom: 80px;
+    }
+}
+@media (min-width: 1680px) {
+
+    .section__video {
+        align-items: center;
+        background-color: #F8F8F8;
+        display: flex;
+        flex-direction: column;
+        margin-top: 140px;
+        padding-top: 120px;
+    }
+
+    .alterar__tamanho__do__video__explicativo {
+        height: 787px;
+        width: 1400px;
+
+    }
+
+    .texto__abaixo__do__video {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        margin-top: 38px;
+        padding-bottom: 120px;
+    }
+}
+@media (min-width: 1920px) {
+    
+    /* SECTION VIDEO EXPLICATIVO SOBRE APP WEB*/
+
+    .section__video {
+        align-items: center;
+        background-color: #F8F8F8;
+        display: flex;
+        flex-direction: column;
+        margin-top: 170px;
+        padding-top: 120px;
+    }
+
+    .alterar__tamanho__do__video__explicativo {
+        height: 905px;
+        width: 1500px;
+
+    }
+
+    .texto__abaixo__do__video {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        margin-top: 55px;
+        padding-bottom: 120px;
+    }
+}
+@media (min-width: 2560px) {
+
+    .section__video {
+        align-items: center;
+        background-color: #F8F8F8;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        padding-top: 140px;
+    }
+
+    .alterar__tamanho__do__video__explicativo {
+        height: 1200px;
+        width: 1700px;
+
+    }
+
+    .texto__abaixo__do__video {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 70px;
+        margin-top: 38px;
+        padding-bottom: 140px;
+    }
+}

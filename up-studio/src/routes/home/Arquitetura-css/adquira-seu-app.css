@@ -1,0 +1,303 @@
+/* ADQUIRA SEU APP*/
+
+.adquira__seu__app {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 70px 0 0 0;
+}
+
+.adquira__seu__app h2 {
+
+    font-size: 30px;
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+    line-height: 48px;
+    width: 70%;
+
+
+}
+
+.adquira__seu__app h2 strong {
+    color: #FE741F;
+    font-weight: bolder;
+
+}
+
+.adquerir--app {
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 40px;
+    width: 300px;
+}
+
+@media (min-width: 425px) {
+   
+    /* ADQUIRA SEU APP*/
+    .adquerir--app {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        ;
+        font-weight: 400;
+        height: 35px;
+        width: 350px;
+    }
+}
+@media (min-width: 768px) {
+
+    
+
+    /* ADQUIRA SEU APP*/
+
+    .adquira__seu__app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 100px 0 0 0;
+
+    }
+
+    .adquira__seu__app h2 {
+
+        font-size: 40px;
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+        width: 55%;
+        line-height: 48px;
+
+    }
+
+    .adquerir--app {
+
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-top: 35px;
+        height: 40px;
+        width: 350px;
+
+    }
+
+
+
+}
+@media (min-width: 1024px) {
+
+
+    .adquira__seu__app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content:flex-end;
+        margin: 120px 0 0 0;
+
+    }
+
+    .adquira__seu__app h2 {
+
+        font-size: 50px;
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+        width: 50%;
+        line-height: 58px;
+
+    }
+
+
+    .adquerir--app {
+        border-radius: 200px;
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-top: 40px;
+        height: 50px;
+        width: 400px;
+
+    }
+
+}
+@media (min-width: 1360px) {
+
+
+     .adquira__seu__app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 150px 0 0 0;
+
+    }
+
+    .adquira__seu__app h2 {
+
+        font-size: 70px;
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+        width: 45%;
+        line-height: 95px;
+
+    }
+
+
+    .adquerir--app {
+        font-size: 25px;
+        border-radius: 200px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-top: 60px;
+        height: 60px;
+        width: 600px;
+
+
+    }
+
+}
+@media (min-width: 1440px) {
+
+
+     .adquira__seu__app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 150px 0 0 0;
+
+    }
+
+    .adquira__seu__app h2 {
+
+        font-size: 70px;
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+        width: 45%;
+        line-height: 95px;
+
+    }
+
+
+    .adquerir--app {
+        font-size: 28px;
+        border-radius: 200px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-top: 60px;
+        height: 70px;
+        width: 600px;
+
+
+    }
+
+}
+@media (min-width: 1680px) {
+
+    .adquira__seu__app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 170px 0 0 0;
+
+    }
+
+    .adquira__seu__app h2 {
+
+        font-size: 90px;
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+        width: 45%;
+        line-height: 95px;
+
+    }
+
+
+    .adquerir--app {
+        font-size: 30px;
+        border-radius: 200px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-top: 60px;
+        height: 75px;
+        width: 730px;
+
+
+    }
+}
+@media (min-width: 1920px) {
+
+  
+    .adquira__seu__app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 140px 0 0 0;
+
+    }
+
+    .adquira__seu__app h2 {
+
+        font-size: 130px;
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+        width: 45%;
+        line-height: 130px;
+        margin-top: 90px;
+
+    }
+
+
+    .adquerir--app {
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        margin-top: 70px;
+        width: 900px;
+        height: 90px;
+    }
+}
+@media (min-width: 2560px) {
+
+    .adquira__seu__app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 190px 0 0 0;
+
+    }
+
+    .adquira__seu__app h2 {
+
+        font-size: 130px;
+        text-align: end;
+        font-family: 'Roboto', sans-serif;
+        width: 45%;
+        line-height: 130px;
+        margin-top: 150px;
+
+    }
+
+
+    .adquerir--app {
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        margin-top: 80px;
+        width: 1200px;
+        height: 110px;
+    }
+
+}

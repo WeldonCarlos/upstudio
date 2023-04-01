@@ -1,0 +1,415 @@
+
+/* SECTION POR QUE TER UM APP WEB*/
+
+.conteiner__pai__porque__appweb {
+    display: flex;
+    background-color: #F8F8F8;
+    margin: 64px 20px 0 20px;
+
+}
+
+.conteudo__textos__button {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0 0 8px;
+
+}
+
+.titulo__porque__ter__app {
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #3B3B39;
+
+}
+
+.titulo__porque__ter__app strong {
+    color: #FE741F;
+
+}
+
+.descricao__ter__app {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #3B3B39;
+    line-height: 15px;
+    text-align: justify;
+    padding-top: 5px;
+
+}
+
+.botao__porque__ter__app {
+    background: #FE741F;
+    border: none;
+    border-radius: 200px;
+    color: white;
+    font-size: 11px;
+    height: 25px;
+    margin-top: 12px;
+    text-align: center;
+    width: 120px;
+    cursor: pointer;
+
+
+}
+
+
+.imagem__moca__porque__ter__app {
+    width: 162px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 425px) {
+
+    .botao__porque__ter__app {
+        background: #FE741F;
+        border: none;
+        border-radius: 200px;
+        color: white;
+        font-size: 11px;
+        height: 25px;
+        margin-top: 25px;
+        text-align: center;
+        width: 120px;
+        cursor: pointer;
+
+    }
+}
+
+@media (min-width: 768px) {
+
+    .conteudo__textos__button {
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0 0 15px;
+
+    }
+
+    .titulo__porque__ter__app {
+        font-size: 28px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        color: #3B3B39;
+
+
+    }
+
+    .titulo__porque__ter__app strong {
+        color: #FE741F;
+
+    }
+
+    .descricao__ter__app {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: #3B3B39;
+        line-height: 25px;
+
+        padding-top: 25px;
+
+    }
+
+    .botao__porque__ter__app {
+        background: #FE741F;
+        border: none;
+        border-radius: 200px;
+        color: white;
+        font-size: 18px;
+        height: 38px;
+        margin-top: 60px;
+        text-align: center;
+        width: 180px;
+        cursor: pointer;
+
+
+    }
+
+    .imagem__moca__porque__ter__app {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .conteudo__textos__button {
+        display: flex;
+        flex-direction: column;
+        margin: 35px 0 0 25px;
+
+    }
+
+    .titulo__porque__ter__app {
+        font-size: 40px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        color: #3B3B39;
+
+
+    }
+
+    .titulo__porque__ter__app strong {
+        color: #FE741F;
+
+    }
+
+    .descricao__ter__app {
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: #3B3B39;
+        line-height: 32px;
+
+        padding-top: 39px;
+
+    }
+
+    .botao__porque__ter__app {
+        background: #FE741F;
+        border: none;
+        border-radius: 200px;
+        color: white;
+        font-size: 20px;
+        height: 40px;
+        margin-top: 100px;
+        text-align: center;
+        width: 240px;
+        cursor: pointer;
+
+
+    }
+
+    .imagem__moca__porque__ter__app {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1360px) {
+
+    .conteiner__pai__porque__appweb {
+        display: flex;
+        background-color: #F8F8F8;
+        margin: 160px 20px 0 20px;
+    }
+
+    .conteudo__textos__button {
+        display: flex;
+        flex-direction: column;
+        margin: 45px 0 0 25px;
+
+    }
+
+    .titulo__porque__ter__app {
+        font-size: 60px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        color: #3B3B39;
+
+
+    }
+
+    .titulo__porque__ter__app strong {
+        color: #FE741F;
+
+    }
+
+    .descricao__ter__app {
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: #3B3B39;
+        line-height: 45px;
+
+        padding-top: 45px;
+
+    }
+
+    .botao__porque__ter__app {
+        background: #FE741F;
+        border: none;
+        border-radius: 200px;
+        color: white;
+        font-size: 28px;
+        height: 55px;
+        margin-top: 100px;
+        text-align: center;
+        width: 300px;
+        cursor: pointer;
+
+
+    }
+
+    .imagem__moca__porque__ter__app {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+
+    .botao__porque__ter__app {
+        background: #FE741F;
+        border: none;
+        border-radius: 200px;
+        color: white;
+        font-size: 28px;
+        height: 60px;
+        margin-top: 100px;
+        text-align: center;
+        width: 350px;
+        cursor: pointer;
+
+    }
+}
+
+@media (min-width: 1680px) {
+
+    .conteiner__pai__porque__appweb {
+        display: flex;
+        background-color: #F8F8F8;
+        margin: 170px 20px 0 20px;
+
+    }
+
+    .conteudo__textos__button {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 30px 0 80px;
+
+
+    }
+
+    .titulo__porque__ter__app {
+        font-size: 60px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        color: #3B3B39;
+
+    }
+
+    .titulo__porque__ter__app strong {
+        color: #FE741F;
+
+    }
+
+    .descricao__ter__app {
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: #3B3B39;
+        line-height: 50px;
+        text-align: justify;
+        padding-top: 35px;
+
+
+    }
+
+    .botao__porque__ter__app {
+        background: #FE741F;
+        border: none;
+        border-radius: 200px;
+        color: white;
+        font-size: 25px;
+        height: 55px;
+        margin-top: 120px;
+        text-align: center;
+        width: 370px;
+        cursor: pointer;
+
+
+    }
+
+
+    .imagem__moca__porque__ter__app {
+        width: 35%;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .botao__porque__ter__app {
+        background: #FE741F;
+        border: none;
+        border-radius: 200px;
+        color: white;
+        font-size: 40px;
+        height: 80px;
+        margin-top: 120px;
+        text-align: center;
+        width: 400px;
+        cursor: pointer;
+
+
+    }
+
+
+    .imagem__moca__porque__ter__app {
+        width: 35%;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 2560px) {
+
+    .conteiner__pai__porque__appweb {
+        display: flex;
+        background-color: #F8F8F8;
+        margin: 170px 20px 0 20px;
+
+    }
+
+    .conteudo__textos__button {
+        display: flex;
+        flex-direction: column;
+        margin: 80px 30px 0 120px;
+
+
+    }
+
+    .titulo__porque__ter__app {
+        font-size: 80px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        color: #3B3B39;
+
+    }
+
+    .titulo__porque__ter__app strong {
+        color: #FE741F;
+
+    }
+
+    .descricao__ter__app {
+        font-size: 60px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        color: #3B3B39;
+        line-height: 75px;
+        text-align: justify;
+        padding-top: 35px;
+
+
+    }
+
+    .botao__porque__ter__app {
+        background: #FE741F;
+        border: none;
+        border-radius: 200px;
+        color: white;
+        cursor: pointer;
+        font-size: 45px;
+        height: 100px;
+        margin-top: 140px;
+        text-align: center;
+        width: 500px;
+    }
+
+
+    .imagem__moca__porque__ter__app {
+        width: 70%;
+        margin-right: 40px;
+    }
+}
