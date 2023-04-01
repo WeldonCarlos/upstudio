@@ -1,0 +1,239 @@
+/* O TOPO E O FOOTER ESTÃO SENDO CHAMADOS COMO COMPONENTES EM  APP.JS*/
+/* OS STYLES DE TOPO E FOOTER ESTÃO EM SEUS RESPECTIVOS COMPONENTES NA PASTA COMPONENTS*/
+
+
+.texto__boas__vindas {
+    margin: 31px 0 0 19px;
+}
+
+.bem__vindos {
+    color: #AAAAAA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+.inovacao__digital {
+    color: #3B3B39;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+
+
+}
+
+/* AQUI COMEÇA A RESPONSIVIDADE */
+
+@media (min-width: 375px) {
+
+    /* ESSA CLASSNAME REFERE-SE AO NOME LOGO ABAIXO MENU NAV*/
+    .inovacao__digital {
+        color: #3B3B39;
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    .texto__boas__vindas {
+        margin: 31px 0 0 40px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+    .texto__boas__vindas {
+        margin: 45px 0 -20px 40px;
+
+    }
+
+
+    .bem__vindos {
+
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        width: 50%;
+
+    }
+
+    .inovacao__digital {
+        color: #3B3B39;
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+        width: 90%;
+
+    }
+
+}
+
+@media (min-width: 1360px) {
+
+    /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+    .texto__boas__vindas {
+        margin: 45px 0 -20px 40px;
+    }
+
+
+    .bem__vindos {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+
+    }
+
+    .inovacao__digital {
+        color: #3B3B39;
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+
+    }
+
+}
+
+@media (min-width: 1366px) {
+
+    /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+    .texto__boas__vindas {
+        margin: 45px 0 -20px 40px;
+    }
+
+
+    .bem__vindos {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+
+    }
+
+    .inovacao__digital {
+        color: #3B3B39;
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+
+    }
+
+
+
+}
+
+@media (min-width: 1440px) {
+
+    /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+    .texto__boas__vindas {
+        margin: 45px 0 -20px 40px;
+    }
+
+
+    .bem__vindos {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+
+    }
+
+    .inovacao__digital {
+        color: #3B3B39;
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+
+    }
+
+}
+
+@media (min-width: 1680px) {
+
+    /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+    .texto__boas__vindas {
+        margin: 45px 0 -20px 40px;
+    }
+
+
+    .bem__vindos {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+
+    }
+
+    .inovacao__digital {
+        color: #3B3B39;
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+
+    }
+
+
+   
+}
+
+@media (min-width: 1920px) {
+
+    /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+    .texto__boas__vindas {
+        margin: 45px 0 -20px 40px;
+    }
+
+
+    .bem__vindos {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+
+    }
+
+    .inovacao__digital {
+        color: #3B3B39;
+        font-family: 'Roboto', sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+
+    }
+
+}
+
+@media (min-width: 2560px) {
+
+    /* ESSA CLASSNAME REFERE-SE AO CONTEINER-PAI ONDE ESTÁ O TEXTO DE BOAS VINDAS */
+    .texto__boas__vindas {
+        margin: 130px 0 150px 90px;
+    }
+
+
+    .bem__vindos {
+        color: #AAAAAA;
+        font-family: 'Roboto', sans-serif;
+        font-size: 80px;
+        font-weight: 300;
+
+    }
+
+    .inovacao__digital {
+        color: #3B3B39;
+        font-family: 'Roboto', sans-serif;
+        font-size: 130px;
+        font-weight: bold;
+
+    }  
+
+}
