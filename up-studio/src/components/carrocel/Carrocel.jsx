@@ -1,7 +1,8 @@
+import './carrocel.css'
 import ModeloPetShop from '../../Assets/img/Banner1.png'
 import BannerUp from '../../Assets/img/Banner2.png'
 import SiteUpPoint from '../../Assets/img/Banner4.png'
-import './carrocel.css'
+
 
 const Carrocel = () => {
     return (
