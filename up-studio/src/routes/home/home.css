@@ -45,7 +45,7 @@
     .texto__boas__vindas {
         margin: 31px 0 0 40px;
     }
-
+   
 }
 
 @media (min-width: 1024px) {
@@ -89,7 +89,7 @@
     .bem__vindos {
         color: #AAAAAA;
         font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 300;
 
     }
@@ -97,7 +97,7 @@
     .inovacao__digital {
         color: #3B3B39;
         font-family: 'Roboto', sans-serif;
-        font-size: 55px;
+        font-size: 48px;
         font-weight: bold;
 
     }
