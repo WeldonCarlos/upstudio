@@ -176,21 +176,18 @@
     /* ESSA CLASSNAME REFERE-SE A LOGO DO TOPO MENU NAV*/
     .logo__topo {
 
-        margin-left: 20px;
-        width: 150px;
+        margin-left: 60px;
+        width: 120px;
 
     }
 
      /* ESSA CLASSNAME REFERE-SE AOS ITENS DE UL MENU NAV*/
-     .nav-item {
-        margin-left: 22px;
-    }
-
+    
 
     /* ESSA CLASSNAME REFERE-SE AO CONTEINER PAI DE UL MENU NAV*/
     .navbar-collapse {
 
-        margin-left: 280px;
+        margin-left: 380px;
         margin-top: 12px;
     }
 
@@ -198,7 +195,7 @@
     .container-fluid {
 
         font-family: 'Roboto', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
 
     }
 
