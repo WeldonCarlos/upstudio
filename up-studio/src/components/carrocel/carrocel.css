@@ -1,6 +1,7 @@
          
 .carousel-inner{
     margin-top: 28px;
+
 }
 
 
@@ -9,18 +10,18 @@
     .carousel-inner{
         margin-top: 55px;
     }
-
+  
 }
 
 @media (min-width: 1360px){
-   
 
     .carousel-inner{
         width: 100%;
         height: 500px;
         margin-top: 55px;
     }
-
+  
+    
 }
 
 @media (min-width: 1680px){
