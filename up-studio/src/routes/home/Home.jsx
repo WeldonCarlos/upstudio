@@ -10,6 +10,7 @@ import Feedback from '../../components/feedback/Feedback'
 import SiteImobiliario from '../../Assets/img/SiteImobiliario.jpg'
 import MocaPerguntando from '../../Assets/img/sorry.png'
 import FotoCliente from '../../Assets/img/fotocliente.jpg'
+import Botao from '../../components/botao/Botao'
 
 function Home() {
 
@@ -31,7 +32,7 @@ function Home() {
             eficiência de segurança e <br /> acessibilidade.
           </h2>
 
-          <button className='botao__section__depois__carrocel'>SAIBA MAIS</button>
+          <Botao/>
         </div>
         <div>
           <img className='makup__imobiliaria' src={SiteImobiliario} alt="Modelo de makup para site imobiliario" />
